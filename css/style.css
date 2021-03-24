@@ -17,3 +17,54 @@ body {
     font-size: 2em;
     color: white;
 }
+
+/* Buttons */
+#reset {
+    color: yellow;
+}
+
+#prev {
+    color: lightblue;
+}
+
+#settings {
+    color: orange;
+}
+
+#next {
+    color: lightgreen;
+}
+
+button {
+    font-size: 2em;
+    background: black;
+    border-color: lightgreen;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 2em;
+    float: left;
+}
+
+button:hover {
+    background: blue;
+}
+
+#reset:hover {
+    background: green;
+}
+
+#prev:hover {
+    background: magenta;
+}
+
+#next:hover {
+    background: deeppink;
+}
+
+#settings:hover {
+    background: purple;
+}
+
+.row button {
+    width: 25%;
+}
