@@ -80,6 +80,23 @@ $(document).ready(function() {
         {
             "caption": "Whitehall Recreation Ground (Path), Bromley",
             "source": "images/whitehall-rec-path-bromley.JPG"
+        },
+
+        {
+            "caption": "Hope Church at St Lukes, Bromley",
+            "source": "images/hope-church-st-lukes-bromley.JPG"
+        },
+
+        {
+            "caption": "Elmfield Wood Notice Board, Bromley",
+            "source": "images/elmfield-wd-nb-bromley.JPG"
+        },
+
+        {
+            "caption": "Elmfield Wood Path, Bromley",
+            "source": "images/elmfield-wd-path-bromley.JPG"
         }
     ];
+
+    
 });
