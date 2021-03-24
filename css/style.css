@@ -3,3 +3,17 @@ body {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     margin-top: 2.5em;
 }
+
+/* Viewer */
+#viewer {
+    width: 80%;
+    margin: auto;
+}
+
+/* Title */
+#title {
+    background: black;
+    height: 60px;
+    font-size: 2em;
+    color: white;
+}
