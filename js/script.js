@@ -98,5 +98,15 @@ $(document).ready(function() {
         }
     ];
 
-    
+    const CAPTION_COLORS = ["black","blue","purple","green","orange","red","brown"];
+
+    resetImage();
+
+    // Function to Reset Image
+    function resetImage() {
+        idx = 0;
+        
+    }
+
+
 });
