@@ -18,6 +18,10 @@ body {
     color: white;
 }
 
+#title p {
+    margin: auto;
+}
+
 /* Buttons */
 #reset {
     color: yellow;
@@ -38,6 +42,7 @@ body {
 button {
     font-size: 2em;
     background: black;
+    color: white;
     border-color: lightgreen;
     margin-left: 0px;
     margin-right: 0px;
