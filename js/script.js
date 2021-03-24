@@ -105,8 +105,16 @@ $(document).ready(function() {
     // Function to Reset Image
     function resetImage() {
         idx = 0;
-        
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
+        displayCaption(IMAGES[idx]);
     }
 
+    // Function to Display Image
+    function displayImage(src, caption) {
+        $("#img-display").html(`
+        <figure>
+            <img src=${src} title=${caption} alt=${caption} id="image" />
+            </figure>`);
+    }
 
 });
