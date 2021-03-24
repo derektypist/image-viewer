@@ -22,6 +22,18 @@ body {
     margin: auto;
 }
 
+/* Images */
+#img-display {
+    padding: 10px;
+}
+
+#image {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
 /* Buttons */
 #reset {
     color: yellow;
