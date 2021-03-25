@@ -151,6 +151,11 @@ $(document).ready(function() {
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
+
+        if (idx == IMAGES.length - 1) {
+            $(this).attr("disabled","disabled");
+        }
+        
     }
 
     // Function to Change Caption Color
