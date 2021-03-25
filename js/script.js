@@ -138,7 +138,7 @@ $(document).ready(function() {
             idx -= 1;
         }
 
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
@@ -149,7 +149,7 @@ $(document).ready(function() {
             idx += 1;
         }
 
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
