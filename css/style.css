@@ -23,6 +23,10 @@ body {
 }
 
 /* Images */
+
+.image {
+    border: 5px solid black;
+}
 .image:hover {
     border: 5px solid orange;
 }
