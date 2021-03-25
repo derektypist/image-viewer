@@ -153,7 +153,7 @@ $(document).ready(function() {
         displayPosition(idx);
 
         if (idx == IMAGES.length - 1) {
-            $("button").attr("id","next").attr("disabled","true");
+            $(this).attr("id","next").attr("disabled","true");
         }
 
         
