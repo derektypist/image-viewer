@@ -8,6 +8,7 @@ body {
 #viewer {
     width: 80%;
     margin: auto;
+    border 5px solid black;
 }
 
 /* Title */
