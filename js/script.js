@@ -168,7 +168,9 @@ $(document).ready(function() {
     // Viewer Buttons
 
     // Move to previous image when the button with Angle Left icon is clicked
-    $("#prev").click(previousImage);
+    $("#prev").click(function() {
+        previousImage(idx);
+    });
 
     // Change caption color when the button with Adjust icon is clicked
     $("#settings").click(changeCaptionColor);
@@ -177,6 +179,8 @@ $(document).ready(function() {
     $("#reset").click(resetImage);
 
     // Move to next image when the button with Angle Right icon is clicked
-    $("#next").click(nextImage);
+    $("#next").click(function() {
+        nextImage(idx);
+    });
 
 });
