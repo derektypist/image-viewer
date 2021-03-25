@@ -131,7 +131,7 @@ $(document).ready(function() {
     }
 
     // Function to Move to Previous Image
-    function previousImage(idx) {
+    function previousImage() {
         if (idx > 0) {
             idx -= 1;
         }
@@ -143,7 +143,7 @@ $(document).ready(function() {
     }
 
     // Function to Move to Next Image
-    function nextImage(idx) {
+    function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
         }
