@@ -149,7 +149,7 @@ $(document).ready(function() {
 
     // Function to Move to Next Image
     function nextImage(idx) {
-        if (idx != IMAGES.length - 1) {
+        if (idx < IMAGES.length - 1) {
             idx += 1;
         }
 
