@@ -134,7 +134,7 @@ $(document).ready(function() {
     function previousImage() {
         if (idx > 0) {
             idx -= 1;
-            $("#next").prop("title","Next");
+            $("#next").prop("title","Next").prop("disabled",false);
         }
 
         if (idx == 0) {
@@ -153,7 +153,7 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
-            $("#prev").prop("title","Previous");
+            $("#prev").prop("title","Previous").prop("disabled",false);
             
         }
        
@@ -162,9 +162,9 @@ $(document).ready(function() {
         displayPosition(idx);      
 
         if (idx == IMAGES.length - 1) {
-            $(this).attr("id","next").attr("title","Last Image");
+            $(this).attr("id","next").attr("title","Last Image").prop("disabled",true);
         } else {
-            $(this).attr("id","next").attr("title","Next");
+            $(this).attr("id","next").attr("title","Next").prop("disabled",false);
         }
 
         
