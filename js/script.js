@@ -132,7 +132,10 @@ $(document).ready(function() {
 
     // Function to Move to Previous Image
     function previousImage(idx) {
-        idx -= 1;
+        if (idx > 0) {
+            idx -= 1;
+        }
+        
 
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
@@ -141,7 +144,9 @@ $(document).ready(function() {
 
     // Function to Move to Next Image
     function nextImage(idx) {
-        idx += 1;
+        if (idx < IMAGES.length - 1) {
+            idx += 1;
+        }
 
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
