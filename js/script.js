@@ -135,13 +135,13 @@ $(document).ready(function() {
     function previousImage() {
         if (idx > 0) {
             idx -= 1;
-            $("#next").prop("title","Next").prop("disabled",false);
+            $("#next").prop("title","Next").prop("disabled",false).css("background-color","black");
         }
 
         if (idx == 0) {
-            $(this).attr("id","prev").attr("title","First Image").css("background-color","darkgrey");
+            $(this).attr("id","prev").attr("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         } else {
-            $(this).attr("id","prev").attr("title","Previous");
+            $(this).attr("id","prev").attr("title","Previous").prop("disabled",false).css("background-color","black");
         }
         
 
@@ -154,7 +154,7 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
-            $("#prev").prop("title","Previous").prop("disabled",false);
+            $("#prev").prop("title","Previous").prop("disabled",false).css("background-color","black");
             
         }
        
