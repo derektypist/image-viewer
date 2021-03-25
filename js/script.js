@@ -116,10 +116,14 @@ $(document).ready(function() {
 
     // Function to Display Image
     function displayImage(src, caption) {
-        $("#img-display").html(`
-        <figure>
-            <img src=${src} title=${caption} alt=${caption} id="image" />
-            </figure>`);
+        $("#image").html(`
+            <img src=${src} title=${caption} alt=${caption} />`);
+    }
+
+    // Function to Display Caption
+    function displayCaption(caption) {
+        $("#img-caption").html(`
+            <figcaption>${caption}</figcaption>`);
     }
 
 });
