@@ -152,6 +152,7 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
+            $("#prev").prop("title","Previous");
             
         }
        
@@ -163,9 +164,6 @@ $(document).ready(function() {
             $(this).attr("id","next").attr("title","Last Image");
         } else {
             $(this).attr("id","next").attr("title","Next");
-            if (idx == 1) {
-                $(this).attr("id","prev").attr("title","Previous");
-            }
         }
 
         
