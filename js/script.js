@@ -169,4 +169,7 @@ $(document).ready(function() {
     // Change caption color when the button with Adjust icon is clicked
     $("#settings").click(changeCaptionColor);
 
+    // Reset to First Image
+    $("#reset").click(resetImage);
+
 });
