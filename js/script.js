@@ -118,7 +118,7 @@ $(document).ready(function() {
     // Function to Display Image
     function displayImage(src, caption) {
         $("#image").html(`
-            <img src=${src} title=${caption} alt=${caption} />`);
+            <img src=${src} title=${caption} alt=${caption}>`);
     }
 
     // Function to Display Caption
