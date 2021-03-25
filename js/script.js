@@ -145,7 +145,6 @@ $(document).ready(function() {
     // Function to Move to Next Image
     function nextImage() {
         if (idx < IMAGES.length - 1) {
-            $(this).attr("id","next").prop("disabled",false);
             idx += 1;
         }
 
@@ -154,8 +153,10 @@ $(document).ready(function() {
         displayPosition(idx);
 
         if (idx == IMAGES.length - 1) {
-            $(this).attr("id","next").prop("disabled",true);
-        } 
+            $(this).attr("id","next").attr("title","Last Image");
+        } else {
+            $(this).attr("id","next").attr("title","Next");
+        }
 
         
     }
