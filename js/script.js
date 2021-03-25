@@ -114,15 +114,15 @@ $(document).ready(function() {
     // Function to Reset Image
     function resetImage() {
         idx = 0;
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
 
     // Function to Display Image
-    function displayImage(src, caption) {
+    function displayImage(src, title) {
         $("#image").html(`
-            <img src=${src} title=${caption} alt=${caption}>`);
+            <img src=${src} title=${title} alt=${title}>`);
     }
 
     // Function to Display Caption
@@ -142,7 +142,7 @@ $(document).ready(function() {
             idx -= 1;
         }
 
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
@@ -153,7 +153,7 @@ $(document).ready(function() {
             idx += 1;
         }
 
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
