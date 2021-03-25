@@ -25,6 +25,7 @@ body {
 /* Images */
 
 .image {
+    margin: 0;
     border: 5px solid black;
 }
 .image:hover {
