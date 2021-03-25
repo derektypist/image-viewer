@@ -154,4 +154,11 @@ $(document).ready(function() {
         displayPosition(idx);
     }
 
+    // Function to Change Caption Color
+    function changeCaptionColor() {
+        colIterations++;
+        $("#img-caption").css("color",CAPTION_COLORS[colIterations % CAPTION_COLORS.length]);
+
+    }
+
 });
