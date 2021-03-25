@@ -152,23 +152,20 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
-            if (idx == 1) {
-                $(this).attr("id","prev").attr("title","Previous");
-            }
+            
         }
-
-        
-
+       
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
-        displayPosition(idx);
-
-        
+        displayPosition(idx);      
 
         if (idx == IMAGES.length - 1) {
             $(this).attr("id","next").attr("title","Last Image");
         } else {
             $(this).attr("id","next").attr("title","Next");
+            if (idx == 1) {
+                $(this).attr("id","prev").attr("title","Previous");
+            }
         }
 
         
