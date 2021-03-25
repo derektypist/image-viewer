@@ -26,6 +26,7 @@ body {
 
 #image {
     min-height: 360px;
+    min-width: 100%;
     display: block;
     margin: auto;
 }
