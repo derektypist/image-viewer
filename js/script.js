@@ -161,4 +161,11 @@ $(document).ready(function() {
 
     }
 
+    // Viewer Buttons
+
+    // Move to previous image when the angle-left icon is clicked
+    $("#prev").click(function() {
+        previousImage(idx);
+    });
+
 });
