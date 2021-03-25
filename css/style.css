@@ -23,7 +23,7 @@ body {
 }
 
 /* Images */
-.images:hover {
+.image:hover {
     border: 5px solid orange;
 }
 
