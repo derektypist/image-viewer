@@ -116,8 +116,7 @@ $(document).ready(function() {
 
     // Function to Display Image
     function displayImage(src, caption) {
-        $("#image").html(`
-            <img src=${src} class="img-fluid" title=${caption} alt=${caption} />`);
+        $("img").attr("src",src).attr("title",caption).attr("alt",caption).attr("class","img-fluid");
     }
 
     // Function to Display Caption
