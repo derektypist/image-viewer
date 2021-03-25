@@ -58,6 +58,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Nerja, Spain",
+            "source": "images/nerja-spain.jpg"
+        },
+
+        {
             "caption": "Observatory in Prague, Czech Republic",
             "source": "images/observatory-prague.JPG"
         },
