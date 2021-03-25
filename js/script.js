@@ -176,4 +176,7 @@ $(document).ready(function() {
     // Reset to First Image
     $("#reset").click(resetImage);
 
+    // Move to next image when the button with Angle Right icon is clicked
+    $("#next").click(nextImage);
+
 });
