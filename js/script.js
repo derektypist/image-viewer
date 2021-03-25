@@ -134,6 +134,7 @@ $(document).ready(function() {
     function previousImage() {
         if (idx > 0) {
             idx -= 1;
+            $("#next").prop("title","Next");
         }
 
         if (idx == 0) {
