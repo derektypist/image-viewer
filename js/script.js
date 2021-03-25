@@ -18,7 +18,7 @@ $(document).ready(function() {
 
         {
             "caption": "IoD Building, London",
-            "source": "images/iod-building.JPG"
+            "source": "images/iod-building.jpg"
         },
 
         {
