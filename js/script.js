@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
     // Set Up Global Variables
-    let imgDisplay = $("#img-display");
     let colIterations = 0;
     let idx = 0;
 
