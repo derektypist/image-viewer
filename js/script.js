@@ -152,9 +152,6 @@ $(document).ready(function() {
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
 
-        if (idx == IMAGES.length - 1) {
-            $(this).attr("disabled","disabled");
-        }
         
     }
 
