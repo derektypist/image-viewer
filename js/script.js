@@ -122,7 +122,7 @@ $(document).ready(function() {
     // Function to Display Image
     function displayImage(src, title) {
         $("#image").html(`
-            <img src=${src} title=${title} alt=${title}>`);
+            <img src=${src} title=${title} alt=${title} />`);
     }
 
     // Function to Display Caption
