@@ -139,7 +139,7 @@ $(document).ready(function() {
         }
 
         if (idx == 0) {
-            $(this).attr("id","prev").attr("title","First");
+            $(this).attr("id","prev").attr("title","First Image");
         } else {
             $(this).attr("id","prev").attr("title","Previous");
         }
