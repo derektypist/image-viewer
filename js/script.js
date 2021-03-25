@@ -152,6 +152,9 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
+            if (idx == 1) {
+                $(this).attr("id","prev").attr("title","Previous");
+            }
         }
 
         
@@ -160,9 +163,7 @@ $(document).ready(function() {
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
 
-        if (idx == 1) {
-            $(this).attr("id","prev").attr("title","Previous");
-        }
+        
 
         if (idx == IMAGES.length - 1) {
             $(this).attr("id","next").attr("title","Last Image");
