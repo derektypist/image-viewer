@@ -116,13 +116,13 @@ $(document).ready(function() {
 
     // Function to Display Image
     function displayImage(src, caption) {
-        $(".image").attr("src",src).attr("title",caption).attr("alt",caption).attr("class","img-fluid");
+        $("img").attr("src",src).attr("title",caption).attr("alt",caption);
     }
 
     // Function to Display Caption
     function displayCaption(caption) {
         $("#img-caption").html(`
-            <figcaption>${caption}</figcaption>`);
+            <p>${caption}</p>`);
     }
 
     // Function to Display Position Information
