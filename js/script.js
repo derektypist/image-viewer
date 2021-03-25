@@ -28,7 +28,7 @@ $(document).ready(function() {
 
         {
             "caption": "In London on 20 September 2011",
-            "source": "images/derek-20110920.jpg"
+            "source": "images/derek-20110920.JPG"
         },
 
         {
