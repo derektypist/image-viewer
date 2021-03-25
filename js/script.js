@@ -14,16 +14,12 @@ $(document).ready(function() {
     const IMAGES = [
         {
             "caption": "Thames Polytechnic Presentation Ceremony, Royal Festival Hall, London",
-            "source": "images/presentation-ceremony-derek.jpg",
-            "title": `Presentation Ceremony`,
-            "alt": "Presentation Ceremony"
+            "source": "images/presentation-ceremony-derek.jpg",          
         }, 
 
         {
             "caption": "IoD Building, London",
-            "source": "images/iod-building.JPG",
-            "title": "IoD Building",
-            "alt": "IoD Building"
+            "source": "images/iod-building.JPG",   
         },
 
         {
@@ -114,15 +110,15 @@ $(document).ready(function() {
     // Function to Reset Image
     function resetImage() {
         idx = 0;
-        displayImage(IMAGES[idx]["source"], IMAGES[idx]["title"]);
+        displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
     }
 
     // Function to Display Image
-    function displayImage(src, title) {
+    function displayImage(src, caption) {
         $("#image").html(`
-            <img src=${src} title=${title} alt=${title} />`);
+            <img src=${src} title=${caption} alt=${caption} />`);
     }
 
     // Function to Display Caption
