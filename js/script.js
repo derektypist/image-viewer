@@ -154,6 +154,8 @@ $(document).ready(function() {
 
         if (idx == IMAGES.length - 1) {
             $(this).attr("id","next").attr("disabled","true");
+        } else {
+            $(this).attr("id","next").attr("disabled","false");
         }
 
         
