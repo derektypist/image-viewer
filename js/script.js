@@ -135,6 +135,12 @@ $(document).ready(function() {
         if (idx > 0) {
             idx -= 1;
         }
+
+        if (idx == 0) {
+            $(this).attr("id","prev").attr("title","First");
+        } else {
+            $(this).attr("id","prev").attr("title","Previous");
+        }
         
 
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
