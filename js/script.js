@@ -109,7 +109,7 @@ $(document).ready(function() {
     // Function to Reset Image
     function resetImage() {
         idx = 0;
-        $("#prev").prop("title","First Image").prop("disabled",true);
+        $("#prev").prop("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
@@ -139,7 +139,7 @@ $(document).ready(function() {
         }
 
         if (idx == 0) {
-            $(this).attr("id","prev").attr("title","First Image");
+            $(this).attr("id","prev").attr("title","First Image").css("background-color","darkgrey");
         } else {
             $(this).attr("id","prev").attr("title","Previous");
         }
