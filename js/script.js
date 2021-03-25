@@ -109,6 +109,7 @@ $(document).ready(function() {
     // Function to Reset Image
     function resetImage() {
         idx = 0;
+        $("#prev").prop("title","First Image").prop("disabled",true);
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
