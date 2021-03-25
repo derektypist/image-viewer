@@ -31,6 +31,10 @@ body {
     margin: auto;
 }
 
+#image:hover {
+    border: 5px solid orange;
+}
+
 
 /* Buttons */
 #reset {
