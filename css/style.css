@@ -22,7 +22,10 @@ body {
     margin: auto;
 }
 
-
+/* Images */
+.images:hover {
+    border: 5px solid orange;
+}
 
 
 /* Buttons */
