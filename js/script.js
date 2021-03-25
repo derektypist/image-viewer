@@ -15,7 +15,7 @@ $(document).ready(function() {
         {
             "caption": "Thames Polytechnic Presentation Ceremony, Royal Festival Hall, London",
             "source": "images/presentation-ceremony-derek.jpg",
-            "title": "Presentation Ceremony",
+            "title": `Presentation Ceremony`,
             "alt": "Presentation Ceremony"
         }, 
 
