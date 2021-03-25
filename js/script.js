@@ -111,7 +111,8 @@ $(document).ready(function() {
     function resetImage() {
         idx = 0;
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
-        displayCaption(IMAGES[idx]);
+        displayCaption(IMAGES[idx]["caption"]);
+        displayPosition(idx);
     }
 
     // Function to Display Image
@@ -124,6 +125,11 @@ $(document).ready(function() {
     function displayCaption(caption) {
         $("#img-caption").html(`
             <figcaption>${caption}</figcaption>`);
+    }
+
+    // Function to Display Position Information
+    function displayPosition(idx) {
+        $("#pos-info").html(`<p>Position ${idx + 1} of ${IMAGES.length}</p>`);
     }
 
 });
