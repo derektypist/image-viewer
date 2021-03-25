@@ -14,12 +14,12 @@ $(document).ready(function() {
     const IMAGES = [
         {
             "caption": "Thames Polytechnic Presentation Ceremony, Royal Festival Hall, London",
-            "source": "images/presentation-ceremony-derek.jpg",          
+            "source": "images/presentation-ceremony-derek.jpg"        
         }, 
 
         {
             "caption": "IoD Building, London",
-            "source": "images/iod-building.JPG",   
+            "source": "images/iod-building.JPG"
         },
 
         {
