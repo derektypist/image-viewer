@@ -102,6 +102,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Boat Trip, Prague, Czech Republic",
+            "source": "images/boat-trip-prague.JPG"
+        },
+
+        {
             "caption": "Observatory in Prague, Czech Republic",
             "source": "images/observatory-prague.JPG"
         },
