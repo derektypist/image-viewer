@@ -52,6 +52,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Tramway in Reims, France",
+            "source": "images/tramway-reims.JPG"
+        }
+
+        {
             "caption": "Menton, France",
             "source": "images/menton.JPG"
         },
