@@ -87,6 +87,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Lisbon, Portugal",
+            "source": "images/lisbon.JPG"
+        },
+
+        {
             "caption": "Lisbon, Portugal at Night",
             "source": "images/lisbon-at-night.JPG"
         },
