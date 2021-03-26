@@ -77,6 +77,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Mountain Views in Menton, France",
+            "source": "images/menton-mountain-views.JPG"
+        },
+
+        {
             "caption": "La Geode, Paris, France",
             "source": "images/la-geode-paris.JPG"
         },
