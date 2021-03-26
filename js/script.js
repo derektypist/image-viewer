@@ -139,6 +139,26 @@ $(document).ready(function() {
         {
             "caption": "Elmfield Wood Path, Bromley",
             "source": "images/elmfield-wd-path-bromley.JPG"
+        },
+
+        {
+            "caption": "St Mark's Square, Bromley",
+            "source": "images/st-marks-sq-bromley.JPG"
+        },
+
+        {
+            "caption": "Havelock Recreation Ground, Bromley",
+            "source": "images/havelock-rec-bromley.JPG"
+        },
+
+        {
+            "caption": "Norman Park, Bromley",
+            "source": "images/norman-park-bromley.JPG"
+        },
+
+        {
+            "caption": "Map of Norman Park, Bromley",
+            "source": "images/norman-park-map-bromley.JPG"
         }
     ];
 
