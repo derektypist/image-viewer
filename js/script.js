@@ -102,7 +102,7 @@ $(document).ready(function() {
         }
     ];
 
-    const CAPTION_COLORS = ["black","blue","purple","green","orange","red","brown"];
+    const CAPTION_COLORS = ["black","blue","purple","green","darkorange","red","brown"];
 
     resetImage();
 
