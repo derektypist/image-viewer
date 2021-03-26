@@ -82,6 +82,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Eiffel Tower, Paris, France",
+            "source": "images/eiffel-tower-paris.JPG"
+        },
+
+        {
             "caption": "Nerja, Spain",
             "source": "images/nerja-spain.jpg"
         },
