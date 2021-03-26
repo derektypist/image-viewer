@@ -87,6 +87,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Lisbon, Portugal at Night",
+            "source": "images/lisbon-at-night.JPG"
+        },
+
+        {
             "caption": "Nerja, Spain",
             "source": "images/nerja-spain.JPG"
         },
