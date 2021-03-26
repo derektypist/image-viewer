@@ -92,6 +92,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Waldorf Restaurant, CMV Magellan",
+            "source": "images/waldorf-restaurant-magellan.JPG"
+        },
+
+        {
             "caption": "Torremolinos, Spain",
             "source": "images/torremolinos.JPG"
         },
