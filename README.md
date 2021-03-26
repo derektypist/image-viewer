@@ -38,6 +38,8 @@ As a user, if I hover on to any button, a screentip is displayed and the backgro
 
 The IMAGES is an object array.  It has the properties of `caption` and `source`.
 
+The [IMAGES](images) are supplied.
+
 `caption` is a string.  It has a brief description of the image (e.g. Le Geode, Paris, France).
 
 `source` is a string.  It is the file path of the image (e.g. `images/la-geode-paris.JPG`).
@@ -58,3 +60,11 @@ Cycle - `black, blue, purple, green, darkorange, red, brown, black, blue and so 
 This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta3, JavaScript, jQuery 3.5.1, Font Awesome 5.15.2 and Google Fonts.
 
 JavaScript is used to manipulate Object Arrays and String Arrays.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+This project to be deployed on GitHub Pages at the main branch.
