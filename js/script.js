@@ -54,7 +54,12 @@ $(document).ready(function() {
         {
             "caption": "Tramway in Reims, France",
             "source": "images/tramway-reims.JPG"
-        }
+        },
+
+        {
+            "caption": "Comedie, Reims, France Tram Stop",
+            "source": "images/comedie-reims.JPG"
+        },
 
         {
             "caption": "Menton, France",
