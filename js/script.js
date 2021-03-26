@@ -102,6 +102,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Fuengirola, Spain",
+            "source": "images/fuengirola-spain.JPG"
+        },
+
+        {
             "caption": "Wendover Road, Bromley",
             "source": "images/wendover-rd-bromley.JPG"
         },
