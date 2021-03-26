@@ -53,4 +53,8 @@ Cycle - `black, blue, purple, green, darkorange, red, brown, black, blue and so 
 * Reset (Go to First Image)
 * Change Caption Color (e.g. Black to Blue)
 
+## Technologies
 
+This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta3, JavaScript, jQuery 3.5.1, Font Awesome 5.15.2 and Google Fonts.
+
+JavaScript is used to manipulate Object Arrays and String Arrays.
