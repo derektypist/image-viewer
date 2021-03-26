@@ -52,6 +52,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Menton, France",
+            "source": "images/menton.JPG"
+        },
+
+        {
             "caption": "La Geode, Paris, France",
             "source": "images/la-geode-paris.JPG"
         },
