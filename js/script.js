@@ -136,13 +136,13 @@ $(document).ready(function() {
     function previousImage() {
         if (idx > 0) {
             idx -= 1;
-            $("#next").prop("title","Next").prop("disabled",false).css("background-color","black");
+            $("#next").prop("title","Next Image").prop("disabled",false).css("background-color","black");
         }
 
         if (idx == 0) {
             $(this).attr("id","prev").attr("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         } else {
-            $(this).attr("id","prev").attr("title","Previous").prop("disabled",false).css("background-color","black");
+            $(this).attr("id","prev").attr("title","Previous Image").prop("disabled",false).css("background-color","black");
         }
         
 
@@ -155,7 +155,7 @@ $(document).ready(function() {
     function nextImage() {
         if (idx < IMAGES.length - 1) {
             idx += 1;
-            $("#prev").prop("title","Previous").prop("disabled",false).css("background-color","black");
+            $("#prev").prop("title","Previous Image").prop("disabled",false).css("background-color","black");
             
         }
        
@@ -164,9 +164,9 @@ $(document).ready(function() {
         displayPosition(idx);      
 
         if (idx == IMAGES.length - 1) {
-            $(this).attr("id","next").attr("title","Last Image").prop("disabled",true);
+            $(this).attr("id","next").attr("title","Last Image").prop("disabled",true).css("background-color","darkgrey");
         } else {
-            $(this).attr("id","next").attr("title","Next").prop("disabled",false);
+            $(this).attr("id","next").attr("title","Next Image").prop("disabled",false).css("background-color","black");
         }
 
         
