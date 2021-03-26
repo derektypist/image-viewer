@@ -38,10 +38,12 @@ body {
 #img-caption {
     margin-top: 10px;
     margin-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 #img-caption:hover {
     background-color: lightblue;
+    
 }
 
 
