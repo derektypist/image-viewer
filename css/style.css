@@ -45,6 +45,11 @@ body {
     background-color: lightblue;
 }
 
+/* Position Information */
+#pos-info:hover {
+    background-color: lightgreen;
+}
+
 /* Buttons */
 #reset {
     color: yellow;
