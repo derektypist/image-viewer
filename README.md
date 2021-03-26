@@ -21,3 +21,27 @@ image, I expect the button with `id=prev` to be disabled.
 As a user, if I am on the first image and I click the button with `id=next`, I
 expect the button with `id=prev` to be enabled.
 
+As a user, if I click on the button with `id=settings`, I expect the caption
+color to change.
+
+As a user, if I click on the button with `id=reset`, I expect to go to the
+first image.
+
+As a user, if I hover on to the image, I expect the border color to change.  I
+also expect a screentip to be displayed.
+
+As a user, if I hover on to `id=img-caption`, the background color will change.
+
+As a user, if I hover on to `id=pos-info`, the background color will change.
+
+As a user, if I hover on to any button, a screentip is displayed and the background color will change.
+
+The IMAGES is an object array.  It has the properties of `caption` and `source`.
+
+`caption` is a string.  It has a brief description of the image (e.g. Le Geode, Paris, France).
+
+`source` is a string.  It is the file path of the image (e.g. `images/la-geode-paris.JPG`).
+
+CAPTION_COLORS is a string array.  It has 7 colors `black, blue, purple, green, darkorange, red and brown`.
+
+Cycle - `black, blue, purple, green, darkorange, red, brown, black, blue and so on`.
