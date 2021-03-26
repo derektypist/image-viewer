@@ -88,7 +88,7 @@ $(document).ready(function() {
 
         {
             "caption": "Nerja, Spain",
-            "source": "images/nerja-spain.jpg"
+            "source": "images/nerja-spain.JPG"
         },
 
         {
