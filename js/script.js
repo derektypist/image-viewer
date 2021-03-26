@@ -72,6 +72,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Torremolinos, Spain",
+            "source": "images/torremolinos.JPG"
+        },
+
+        {
             "caption": "Wendover Road, Bromley",
             "source": "images/wendover-rd-bromley.JPG"
         },
