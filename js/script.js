@@ -47,6 +47,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Lido de Paris, September 2013",
+            "source": "images/lido-de-paris.jpg"
+        },
+
+        {
             "caption": "La Geode, Paris, France",
             "source": "images/la-geode-paris.JPG"
         },
