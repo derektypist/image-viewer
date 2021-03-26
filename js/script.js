@@ -62,6 +62,16 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Nice, France at Night",
+            "source": "images/nice-at-night.JPG"
+        },
+
+        {
+            "caption": "Nice, France",
+            "source": "images/nice-france.JPG"
+        },
+
+        {
             "caption": "Menton, France",
             "source": "images/menton.JPG"
         },
