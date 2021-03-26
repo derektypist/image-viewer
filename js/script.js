@@ -12,11 +12,6 @@ $(document).ready(function() {
     */
     const IMAGES = [
         {
-            "caption": "Thames Polytechnic Presentation Ceremony, Royal Festival Hall, London",
-            "source": "images/presentation-ceremony-derek.jpg"        
-        }, 
-
-        {
             "caption": "IoD Building, London",
             "source": "images/iod-building.jpg"
         },
@@ -44,11 +39,6 @@ $(document).ready(function() {
         {
             "caption": "Olympic Park with Running Track, Munich, Germany",
             "source": "images/olympic-park-running-track-munich.JPG"
-        },
-
-        {
-            "caption": "Lido de Paris, September 2013",
-            "source": "images/lido-de-paris.jpg"
         },
 
         {
@@ -87,8 +77,8 @@ $(document).ready(function() {
         },
 
         {
-            "caption": "On Board the Cristal II in Paris, 19 September 2015",
-            "source": "images/paris-cristal-20150919.jpg"
+            "caption": "Summer Ball 2015 at Hinckley Island Hotel",
+            "source": "images/summer-ball-hinckley-2015.jpg"
         },
 
         {
