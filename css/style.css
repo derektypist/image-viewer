@@ -40,6 +40,10 @@ body {
     margin-bottom: 5px;
 }
 
+#img-caption:hover {
+    background-color: lightblue;
+}
+
 
 /* Buttons */
 #reset {
