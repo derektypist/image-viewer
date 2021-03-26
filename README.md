@@ -68,3 +68,17 @@ Ensure all user stories have been met.
 ## Deployment
 
 This project to be deployed on GitHub Pages at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Media
+
+All the images were taken by myself.  From September 2011 to December 2020.
+
+### Acknowledgements
+
+[Stack Overflow](https://www.stackoverflow.com) for information on enabling and disabling a button.
