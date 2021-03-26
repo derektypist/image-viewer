@@ -45,3 +45,12 @@ The IMAGES is an object array.  It has the properties of `caption` and `source`.
 CAPTION_COLORS is a string array.  It has 7 colors `black, blue, purple, green, darkorange, red and brown`.
 
 Cycle - `black, blue, purple, green, darkorange, red, brown, black, blue and so on`.
+
+## Features
+
+* Move to Previous Image
+* Move to Next Image
+* Reset (Go to First Image)
+* Change Caption Color (e.g. Black to Blue)
+
+
