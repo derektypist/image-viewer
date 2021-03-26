@@ -110,6 +110,7 @@ $(document).ready(function() {
     function resetImage() {
         idx = 0;
         $("#prev").prop("title","First Image").prop("disabled",true).css("background-color","darkgrey");
+        $("#next").prop("title","Next Image");
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
