@@ -128,7 +128,7 @@ $(document).ready(function() {
 
         {
             "caption": "Torremolinos, Spain",
-            "source": "images/torremolinos-spain.JPG"
+            "source": "images/torremolinos-spain.jpg"
         },
 
         {
