@@ -107,6 +107,16 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Hayes Common",
+            "source": "images/hayes-common.JPG"
+        },
+
+        {
+            "caption": "Lloyd Park, Croydon",
+            "source": "images/lloyd-park-croydon.JPG"
+        },
+
+        {
             "caption": "Nerja, Spain",
             "source": "images/nerja-spain.JPG"
         },
