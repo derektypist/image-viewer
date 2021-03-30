@@ -87,6 +87,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Benidorm, Spain",
+            "source": "images/benidorm-spain.JPG"
+        },
+
+        {
             "caption": "Benalmadena, Spain",
             "source": "images/benalmadena-spain.JPG"
         },
