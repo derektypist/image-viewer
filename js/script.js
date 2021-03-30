@@ -198,6 +198,13 @@ $(document).ready(function() {
 
     // Function to Reset Image
     function resetImage() {
+        /*
+
+            Set index to 0
+            Set button whose id is prev to disabled
+            Set button whose id is next to enabled
+
+        */
         idx = 0;
         $("#prev").prop("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         $("#next").prop("title","Next Image").prop("disabled",false).css("background-color","black");
@@ -224,10 +231,23 @@ $(document).ready(function() {
 
     // Function to Move to Previous Image
     function previousImage() {
+        /*
+            If not already at first image
+            Decrement the index by 1
+            Set the button whose id is next to enabled and change the screentip
+
+        */
+        
         if (idx > 0) {
             idx -= 1;
             $("#next").prop("title","Next Image").prop("disabled",false).css("background-color","black");
         }
+
+        /*
+            If already at first image
+            Disable the button whose id is prev and change the screentip
+
+        */
 
         if (idx == 0) {
             $(this).attr("id","prev").attr("title","First Image").prop("disabled",true).css("background-color","darkgrey");
@@ -243,6 +263,14 @@ $(document).ready(function() {
 
     // Function to Move to Next Image
     function nextImage() {
+
+        /*
+            If not at last image
+            Increment the index by 1
+            Enable the button whose id is prev and change the screentip
+
+        */
+
         if (idx < IMAGES.length - 1) {
             idx += 1;
             $("#prev").prop("title","Previous Image").prop("disabled",false).css("background-color","black");
@@ -251,7 +279,13 @@ $(document).ready(function() {
        
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
-        displayPosition(idx);      
+        displayPosition(idx); 
+        
+        /*
+            If already at last image
+            Disable the button whose id is next and change the screentip
+
+        */
 
         if (idx == IMAGES.length - 1) {
             $(this).attr("id","next").attr("title","Last Image").prop("disabled",true).css("background-color","darkgrey");
