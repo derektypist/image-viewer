@@ -87,6 +87,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Benalmadena, Spain",
+            "source": "images/benalmadena-spain.JPG"
+        },
+
+        {
             "caption": "Lisbon, Portugal",
             "source": "images/lisbon.JPG"
         },
