@@ -219,7 +219,7 @@ $(document).ready(function() {
 
     // Function to Display Position Information
     function displayPosition(idx) {
-        $("#pos-info").html(`<p>Position ${idx + 1} of ${IMAGES.length}</p>`);
+        $("#pos-info").html(`<p>Image ${idx + 1} of ${IMAGES.length}</p>`);
     }
 
     // Function to Move to Previous Image
