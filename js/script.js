@@ -87,6 +87,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Eiffel Tower at Night",
+            "source": "images/eiffel-tower-night.JPG"
+        },
+
+        {
             "caption": "Benidorm, Spain",
             "source": "images/benidorm-spain.JPG"
         },
