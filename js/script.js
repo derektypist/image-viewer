@@ -92,6 +92,12 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Benidorm Island, Spain",
+            "source": "images/benidorm-island-spain.JPG"
+        },
+
+
+        {
             "caption": "Benalmadena, Spain",
             "source": "images/benalmadena-spain.JPG"
         },
