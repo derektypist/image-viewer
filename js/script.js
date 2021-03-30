@@ -117,6 +117,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "London Eye",
+            "source": "images/london-eye.JPG"
+        },
+
+        {
             "caption": "Nerja, Spain",
             "source": "images/nerja-spain.JPG"
         },
