@@ -108,6 +108,12 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Fugengirola, Spain at Night",
+            "source": "images/fuengirola-at-night.JPG"
+        },
+
+
+        {
             "caption": "Lisbon, Portugal",
             "source": "images/lisbon.JPG"
         },
