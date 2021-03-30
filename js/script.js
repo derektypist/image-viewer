@@ -92,6 +92,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Mijas, Spain",
+            "source": "images/mijas-spain.JPG"
+        },
+
+        {
             "caption": "Lisbon, Portugal",
             "source": "images/lisbon.JPG"
         },
