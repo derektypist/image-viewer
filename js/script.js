@@ -77,6 +77,12 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Sacre Coeur, Paris, France",
+            "source": "images/sacre-coeur-paris.JPG"
+        },
+
+
+        {
             "caption": "Summer Ball 2015 at Hinckley Island Hotel",
             "source": "images/summer-ball-hinckley-2015.jpg"
         },
