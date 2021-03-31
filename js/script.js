@@ -27,6 +27,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Lloret de Mar, Spain",
+            "source": "images/lloret-de-mar.JPG"
+        },
+
+        {
             "caption": "Olympic Park Noticeboard, Munich, Germany",
             "source": "images/olympic-park-nb-munich.JPG"
         },
