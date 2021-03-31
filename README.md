@@ -67,7 +67,9 @@ Ensure all user stories have been met.
 
 ## Deployment
 
-This project to be deployed on GitHub Pages at the main branch.
+This project is deployed on [GitHub Pages](https://derektypist.github.io/image-viewer) at the main branch.
+
+To update any changes, use the `git push` command.
 
 ## Credits
 
