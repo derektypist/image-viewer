@@ -165,6 +165,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Zizkov Tower, Prague, Czech Republic",
+            "source": "images/zizkov-tower-prague.JPG"
+        },
+
+        {
             "caption": "Waldorf Restaurant, CMV Magellan",
             "source": "images/waldorf-restaurant-magellan.JPG"
         },
