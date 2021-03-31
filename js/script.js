@@ -170,6 +170,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Royal Cambridge Hotel",
+            "source": "images/royal-cambridge-hotel.JPG"
+        },
+
+        {
             "caption": "Waldorf Restaurant, CMV Magellan",
             "source": "images/waldorf-restaurant-magellan.JPG"
         },
