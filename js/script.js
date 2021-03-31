@@ -230,6 +230,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Bromley Methodist Church",
+            "source": "images/bromley-methodist-church.JPG"
+        },
+
+        {
             "caption": "Norman Park, Bromley",
             "source": "images/norman-park-bromley.JPG"
         },
