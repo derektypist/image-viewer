@@ -79,7 +79,7 @@ Written by me.
 
 ### Media
 
-All the images were taken by myself.  From September 2011 to December 2020.
+All the images in [IMAGES](images) were taken by myself.  From September 2011 to December 2020.
 
 ### Acknowledgements
 
