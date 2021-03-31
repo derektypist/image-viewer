@@ -25,7 +25,7 @@ As a user, if I click on the button with `id=settings`, I expect the caption
 color to change.
 
 As a user, if I click on the button with `id=reset`, I expect to go to the
-first image.
+first image.  However, the color setting is retained (e.g. if the color is green, it stays green).
 
 As a user, if I hover on to the image, I expect the border color to change.  I
 also expect a screentip to be displayed.
