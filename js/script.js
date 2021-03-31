@@ -344,7 +344,11 @@ $(document).ready(function() {
 
         if (idx < IMAGES.length - 1) {
             idx += 1;
-            $("#prev").prop("title","Previous Image").prop("disabled",false).css("background-color","black");
+            $("#prev").prop("title","Previous Image").prop("disabled",false).css("background-color","black").hover(function() {
+                $(this).css("background-color","magenta");
+            }, function() {
+                $(this).css("background-color","black");
+            });
             
         }
        
