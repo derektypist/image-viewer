@@ -266,6 +266,7 @@ $(document).ready(function() {
         idx = 0;
         $("#prev").prop("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         $("#next").prop("title","Next Image").prop("disabled",false).css("background-color","black");
+        $("#next:hover").css("background-color","deeppink");
         displayImage(IMAGES[idx]["source"], IMAGES[idx]["caption"]);
         displayCaption(IMAGES[idx]["caption"]);
         displayPosition(idx);
