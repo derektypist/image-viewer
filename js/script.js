@@ -291,7 +291,7 @@ $(document).ready(function() {
             <p>${caption}</p>`);
     }
 
-    // Function to Display Position Information
+    // Function to Display Position Information (Image Number)
     function displayPosition(idx) {
         $("#pos-info").html(`<p>Image ${idx + 1} of ${IMAGES.length}</p>`);
     }
@@ -319,7 +319,11 @@ $(document).ready(function() {
         if (idx == 0) {
             $(this).attr("id","prev").attr("title","First Image").prop("disabled",true).css("background-color","darkgrey");
         } else {
-            $(this).attr("id","prev").attr("title","Previous Image").prop("disabled",false).css("background-color","black");
+            $(this).attr("id","prev").attr("title","Previous Image").prop("disabled",false).css("background-color","black").hover(function() {
+                $(this).css("background-color","magenta");
+            }, function() {
+                $(this).css("background-color","black");
+            });
         }
         
 
