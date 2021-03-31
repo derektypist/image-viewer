@@ -12,11 +12,11 @@ As a user, I want to see the position of the image (e.g. 1) out of the number of
 
 As a user, when I click on the button with `id=next`, I expect to move on to
 the next image, unless this is the last image.  If I am at the last image, I
-expect the button with `id=next` to be disabled.
+expect the button with `id=next` to be disabled and hovering over this button does not change the background color.
 
 As a user, when I click on the button with `id=prev`, I expect to move on
 to the previous image, unless this is the first image.  If I am at the first
-image, I expect the button with `id=prev` to be disabled.
+image, I expect the button with `id=prev` to be disabled and hovering over this button does not change the background color.
 
 As a user, if I am on the first image and I click the button with `id=next`, I
 expect the button with `id=prev` to be enabled.
