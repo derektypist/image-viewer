@@ -32,6 +32,11 @@ $(document).ready(function() {
         },
 
         {
+            "caption": "Barcelona, Spain",
+            "source": "images/barcelona-spain.JPG"
+        },
+
+        {
             "caption": "Olympic Park Noticeboard, Munich, Germany",
             "source": "images/olympic-park-nb-munich.JPG"
         },
