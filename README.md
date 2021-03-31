@@ -84,3 +84,5 @@ All the images in [IMAGES](images) were taken by myself.  From September 2011 to
 ### Acknowledgements
 
 [Stack Overflow](https://www.stackoverflow.com) for information on enabling and disabling a button.
+
+[w3schools.com](https://www.w3schools.com) for jQuery including the hovering information.
